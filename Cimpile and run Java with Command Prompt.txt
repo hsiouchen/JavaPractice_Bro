@@ -1,0 +1,9 @@
+Cimpile and run Java with Command Prompt
+----------------------------------------
+1. Make sure you have a Java JDK installed.
+2. (optional) use a text editor and save a file as .java
+3. Open Command Prompt (windows) or Terminal (Mac) on your computer
+4. set path = D:\Program Files\Java\jdk-20\bin (the JDK is located)
+5. cd D:\00 IT Projects\eclipse-workspace (the java file is)
+6. Compile: javac HelloWorld.java
+7.     Run: java Helloworld (to run a .class file, it's portable)
