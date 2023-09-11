@@ -1,0 +1,24 @@
+
+public class MyThread extends Thread {
+
+	@Override
+	public void run() {
+		
+		for ( int i = 10; i > 0; i-- ) {
+			
+			System.out.println("MyThread #1 : " + i);
+			
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			//System.out.println( 1/0 );
+			
+		}
+		
+		System.out.println("MyThread #1 is finished.");
+		
+	}
+	
+}
